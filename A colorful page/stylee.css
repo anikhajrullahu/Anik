@@ -1,0 +1,24 @@
+body{
+    background-image: url("pexels-souvenirpixels-417074.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.color{
+    color: red;
+    background: rgb(3, 1, 37);
+    background: linear-gradient(90deg, rgb(239, 239, 241) 0%, rgb(68, 68, 149) 35% rgb(4, 1, 56) 100% );
+}
+.link{
+    color: red;
+    background: rgba(0, 0, 0, 0.7);
+}
+.paragraph{
+    color: red;
+    background: rgb(3, 1, 37);
+    background: linear-gradient(90deg, rgb(239, 239, 241) 0%, rgb(68, 68, 149) 35% rgb(4, 1, 56) 100% );
+}
+.p1{
+    color: red;
+    background: rgb(3, 1, 37);
+    background: linear-gradient(90deg, rgb(239, 239, 241) 0%, rgb(68, 68, 149) 35% rgb(4, 1, 56) 100% );
+}
