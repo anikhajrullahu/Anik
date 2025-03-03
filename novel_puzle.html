@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Drop Cap Example</title> 
+<style> 
+body { 
+    font-family: serif;
+    line-height: 1.5; 
+    margin: 20px;
+} 
+.drop-cap { 
+    font-size: 18px;
+    max-width: 600px;
+} 
+.drop-cap::first-letter { 
+    font-size: 4em;
+    font-weight: bold;
+    float: left;
+    line-height: 1; 
+    margin-right: 8px; 
+} 
+</style> 
+</head> 
+<body> 
+   <p class="drop-cap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta est iure libero hic aut blanditiis quam modi quos enim. Veniam quod quia quo nostrum culpa sint consectetur id quaerat cupiditate.</p> 
+</body> 
+</html>
